@@ -24,6 +24,8 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text="✘ 𝘽𝙇𝘼𝘾𝙆𝙇𝙄𝙎𝙏 ✘",
                     callback_data="help_callback hb3",
                 ),
+            ],
+            [
                 InlineKeyboardButton(
                     text="✘ 𝘼𝙐𝙏𝙃 ✘",
                     callback_data="help_callback hb2",
@@ -38,6 +40,8 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text="✘ 𝘽𝙍𝙊𝘼𝘿𝘾𝘼𝙎𝙏 ✘",
                     callback_data="help_callback hb4",
                 ),
+            ],
+            [
                 InlineKeyboardButton(
                     text="✘ 𝙂-𝘽𝘼𝙉 ✘",
                     callback_data="help_callback hb12",
@@ -52,6 +56,8 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text="✘ 𝙋𝙇𝘼𝙔𝙇𝙄𝙎𝙏 ✘",
                     callback_data="help_callback hb6",
                 ),
+            ],
+            [
                 InlineKeyboardButton(
                     text="✘ 𝙋𝙇𝘼𝙔 ✘",
                     callback_data="help_callback hb8",
@@ -66,6 +72,8 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text="✘ 𝙑𝙄𝘿𝙀𝙊𝘾𝙃𝘼𝙏𝙎 ✘",
                     callback_data="help_callback hb10",
                 ),
+            ],
+            [
                 InlineKeyboardButton(
                     text="✘ 𝙎𝙏𝘼𝙍𝙏 ✘",
                     callback_data="help_callback hb11",
