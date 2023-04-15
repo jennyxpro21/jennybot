@@ -41,7 +41,7 @@ async def helper_private(
         language = await get_lang(chat_id)
         _ = get_string(language)
         keyboard = help_pannel(_, True)
-        if update.message.photo:
+
             await update.edit_message_text(
                 _["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
             )
@@ -60,7 +60,7 @@ async def helper_private(
         _ = get_string(language)
         keyboard = help_pannel(_)
 
-        await update.reply_photo(
+
 
             caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
 
@@ -74,7 +74,7 @@ async def helper_private(
 @LanguageStart
 async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
-    await message.reply_photo(
+
 
         caption=_["help_2"], reply_markup=InlineKeyboardMarkup(keyboard)
     )
